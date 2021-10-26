@@ -1,12 +1,10 @@
-### SERVER
-node index.js /server  
+### SERVER /server/index.js 
+node index.js
 OR
 nodemon index.js  
 
 ### CLIENT /client/src/  
 npm start 
-
-
 
 ### CHANGE LOG  
 DONE: Define data gql  
@@ -20,25 +18,21 @@ TODO: GET better dummy data
 TODO: Tests  
 TODO: React side is -just- a button! A single button! 
 
+
+### Queries:     
   
- 
-
-
-
-### 
-Queries:   
-
-query Query{ 
-  postsByUser(userId: "mulefish") {
-  content
-    userId
-    id
-  }
-  currentUser {
-    posts {
-      id
-      content
-      userId
-    }
-  }
-}
+query Query{   
+  postsByUser(userId: "mulefish") {  
+  content  
+    userId  
+    id  
+  }  
+  currentUser {  
+    posts {  
+      id  
+      content  
+      userId  
+    }  
+  }  
+}  
+  
