@@ -19,7 +19,7 @@ TODO: Tests
 TODO: React side is -just- a button! A single button! 
 
 
-### Queries:     
+### Example query:     
   
 query Query{   
   postsByUser(userId: "mulefish") {  
